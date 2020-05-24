@@ -1,0 +1,16 @@
+Objective:
+Here we are trying to recognize the faces that we trained using Python OpenCV library.
+There are two source code files:
+1.	create_data_FaceRecognition.ipynb       (file-1)
+2.	FaceRecognize_FaceRecognition.ipynb     (file-2)
+
+The first file consists of a code where we primarily capture the data (Face) of a person using our webcam.
+We then store the multiple copies of the person’s faces in our own local machine. Thus this becomes our data to train on for which we would be trying to predict the name of the person in the latter part.
+
+The second file consists of a code where we utilize the data which we capture using the first file code and then we will predict the name of the person when we open our webcam and detect the face.
+
+
+Note:
+1.	We will be making use of a pre-trained weights function) named haarcascade_frontalface_default.xml that is trained on a lot of faces and non-faces.
+2.	Using, file-1 We would be storing multiple copies of a person’s detected face in one of the folder and would be access them when we will be running file-2 to detect a person’s face and recognize it.
+
